@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Parallax JS</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<script src="js/script.js" defer></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<header class="main-header">
+				<div class="main-header__layers layers">
+					<div class="layers__header">
+						<div class="layers__caption">Hello world</div>
+						<div class="layers__title">Parallax Test</div>
+					</div>
+					<div class="main-header__layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="main-header__layer layers__middle" style="background-image: url(img/layer-middle.png);">
+					</div>
+					<div class="main-header__layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+			</header>
+			<article class="main-arcticle" style="background-image: url(img/dungeon.jpg);">
+				<div class="main-arcticle__content">
+					<h2 class="main-arcticle__header">To be continued</h2>
+					<p class="main-arcticle__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+						nesciunt a
+						aliquam doloribus molestiae ex
+						consectetur non? Sapiente distinctio laborum praesentium quos suscipit sunt ipsam, repellendus quia
+						modi
+						autem, rem veritatis? Inventore.</p>
+				</div>
+				<div class="main-arcticle__copy">© WebDesign Master</div>
+			</article>
+		</div>
+	</div>
+</body>
+
+</html>
